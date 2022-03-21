@@ -5,5 +5,6 @@
 Projects:
 </br>
 https://rishadjhangiani.github.io/my-flow/
+  <p>This was the first project we created in our class.</p>
 
 https://rishadjhangiani.github.io/favorite-thing/
