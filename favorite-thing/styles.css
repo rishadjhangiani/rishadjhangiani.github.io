@@ -4,8 +4,24 @@ table, th, td {
     margin-right: auto;
   }
 
-h1, h2, h3, form {
+h3, form {
   text-align: center;
 }
 
+.title {
+  background-color: rgb(202, 200, 200);
+}
+
+h1, h2 {
+  margin-left: 1cm;
+  margin-bottom: 0.2 cm;
+  margin-top: 0.2 cm;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
