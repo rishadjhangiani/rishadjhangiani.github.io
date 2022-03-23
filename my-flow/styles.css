@@ -1,0 +1,28 @@
+.red {
+    text-align: center;
+    font-size: 150%;
+    color: red;
+
+}
+
+.top {
+    background-color: rgba(216, 211, 211, 0.774);
+}
+
+#funny {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    font-style: italic;
+    letter-spacing:0.6cm;
+    text-align: center;
+}
+
+.bold {
+    text-align: center;
+    font-weight: bold;
+}
