@@ -1,0 +1,60 @@
+h1, h2 {
+    text-align: center;
+
+}
+
+.top {
+    background-color: rgba(216, 211, 211, 0.774);
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 25%;
+    padding-right: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #020202;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#funny {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact {
+    outline: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.me {
+    display: flex;
+    float: center;
+    justify-content: center;
+}
+
+.light {
+    font-weight: lighter;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 45%;
+}
