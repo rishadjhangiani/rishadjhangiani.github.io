@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+<body id="body" style="font-family: Ariel; font-size: 20px;">
+    <h1>Let's learn javascript</h1>
+    <h2>how to do onlick events and alerts?</h2>
+    <a href="https://www.eastsideprep.org" target="_blank" onclick="alert('you are going away from my page')">go to eps' website</a>
+    <!--challenge 1: do your own link with alert-->
+    <br>
+    <a href="https://www.youtube.com/" target="_blank" onclick="alert('you are going to youtube now')">mystery website</a>
+
+    <h2>how do i change html content with javascript</h2>
+    <h2>what's my secret identity?</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='nananananananananan, batman'; document.getElementById('secret').style='display: block'">reveal secret</button>
+    <button onclick="document.getElementById('secret').style='display: none'">hide</button>
+    <!--challenge 2: do your own 2 truths and a lie-->
+
+    <h2>two truths and a lie</h2>
+    <ol>
+        <li>my fam lived in london</li>
+        <li>i have a dog</li>
+        <li>i like the color blue</li>
+    </ol>
+    <p id="answer"></p>
+    <button onclick="document.getElementById('answer').innerHTML='i have a dog'; document.getElementById('answer').style='display: block'">show answer</button>
+    <button onclick="document.getElementById('answer').style='display: none'">hide answer</button>
+
+
+    <h2>how to change an image with javascript</h2>
+    <img id="happy" src="img/happy.webp" alt="happy dog" style="width: 20%">
+
+    <br>
+    <button onclick="document.getElementById('happy').src='img/sad.jpg'">no ball</button>
+    <button onclick="document.getElementById('happy').src='img/happy.webp'">ball</button>
+
+    <h2>how do we change css styles with functions?</h2>
+    <p id="alice">Hi, I am Alice</p>
+    <button onclick="shrinkAlice()">Cake: Eat Me</button>
+    <!--challenge #4 implement drink me - increase font size, change color-->
+    <button onclick="growAlice()">Potion: Drink Me</button>
+    <button onclick="normalAlice()">Return Alice Home</button>
+
+
+
+    <script>
+        function shrinkAlice() {
+            let aliceParagraph = document.getElementById('alice')
+            aliceParagraph.style.color='blue'
+            aliceParagraph.style.fontSize='10px'
+        }
+
+        function growAlice() {
+            let aliceParagraph = document.getElementById('alice')
+            aliceParagraph.style.color='red'
+            aliceParagraph.style.fontSize='50px'
+        }
+
+        function normalAlice() {
+            let aliceParagraph = document.getElementById('alice')
+            aliceParagraph.style.color='black'
+            aliceParagraph.style.fontSize='20px'
+        }
+    </script>
+
+
+
+    <!--change css attributes-->
+    <br>
+    <h2>change background color</h2>
+    <br>
+    <button onclick="document.getElementById('body').style='background-color: blue'">color change</button>
+    <button onclick="document.getElementById('body').style='background-color: white'">go back</button>
+
+    <br>
+    <h2>change font style</h2>
+    <button onclick="document.getElementById('body').style='font-family: Brush Script MT'">font change</button>
+    <button onclick="document.getElementById('body').style='background-color: white; font-family: Ariel'">go back</button>
+
+
+    
+</body>
+</html>
