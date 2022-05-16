@@ -50,21 +50,21 @@
 
     <script>
         function shrinkAlice() {
-            let aliceParagraph = document.getElementById('alice')
-            aliceParagraph.style.color='blue'
-            aliceParagraph.style.fontSize='10px'
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color='blue';
+            aliceParagraph.style.fontSize='10px';
         }
 
         function growAlice() {
-            let aliceParagraph = document.getElementById('alice')
-            aliceParagraph.style.color='red'
-            aliceParagraph.style.fontSize='50px'
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color='red';
+            aliceParagraph.style.fontSize='50px';
         }
 
         function normalAlice() {
-            let aliceParagraph = document.getElementById('alice')
-            aliceParagraph.style.color='black'
-            aliceParagraph.style.fontSize='20px'
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color='black';
+            aliceParagraph.style.fontSize='20px';
         }
     </script>
 
@@ -83,6 +83,24 @@
     <button onclick="document.getElementById('body').style='background-color: white; font-family: Ariel'">go back</button>
 
 
-    
+    <!--finished early, so trying user input-->
+    <h2>what is your name?</h2>
+    <p id="name"></p>
+    <button onclick="msg()">enter</button>
+
+
+    <script>
+        function msg() {
+            let nameP = document.getElementById('name');
+            var name = window.prompt("what is your name: ");
+            nameP.innerHTML='your name is ' + name;
+            alert("hi " + name);
+        }  
+
+        function input() {
+
+        }
+    </script>
+
 </body>
 </html>
