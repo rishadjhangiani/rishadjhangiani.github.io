@@ -1,0 +1,92 @@
+#navbar-nav {
+    text-align: center;
+    list-style: none;
+}
+
+.nav a {
+    text-align: center;
+    color: #020202;
+    text-align: center;
+    font-size: 12px;
+}
+
+.top {
+    grid-column: 1/span 3;
+    grid-row: 1;
+    width: 100%;
+    background-color: rgba(216, 211, 211, 0.774);
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+img {
+    height: 10%;
+}
+
+
+#one{
+    height: 200px;
+}
+
+#two {
+    height: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+}
+
+
+.support1 {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
+
+.support2 {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
+
+.support3 {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
+
+.support4 {
+    grid-column: 4 / span 1;
+    grid-row: 1;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
+
+.footer1 {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
+
+.footer2 {
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    background-color: rgba(220, 226, 226, 0.87);
+    border: solid 1px black;
+}
